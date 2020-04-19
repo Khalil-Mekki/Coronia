@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+<script type="text/javascript" src="js.js"> </script>
+<link rel="stylesheet" href="style.css"/>
+<title> Nearby Health Centers</title>
+</head>
+<body>
+<div class="splitBig left">
+<div class="topnav"> 
+    <a href="coronia accueil.html"> Home </a></th>
+    <a href="Latest news.html"> Latest News </a></th>
+    <a href="Health Centers.html"> Nearby Health Centers </a></th>
+	<a href="Contact.html"> Contact Us </a></th> </div>
+
+<form> 
+<input type="checkbox" id="Privatebutton" value="Private" onclick="showhideprivate()" checked> Private <br>
+    
+<input type="checkbox" id="Publicbutton" value="Public" onclick="showhidepublic()" checked> Public <br>
+
+<select id="region" onchange="showhideRegion()">  <option value='All' Selected >All</option>   <option value= "North" >North</option>  <option value="Sahel">Sahel</option> <option value="South">South</option> </select>
+ </form>
+<ul>
+<div id="private">
+<div id="privateSahel">
+<li> Carthage Medical Center
+<li> Dabbebi Clinic
+<li> Clinique La Corniche
+<li> Clinical Excellence </div>
+<div id="privateNorth">
+<li> Clinique Avicenne
+<li> Clinique Pasteur
+<li> General and Cardiovascular Clinic Tunis </div>
+<div id="privateSouth">
+<li> Clinique Ezzitouna
+<li> Polyclinique Ibn Annafis
+<li> Clinique Ebn Zoher </div>
+</div> </ul>
+<ul>
+<div id="public">
+<div id="publicSahel">
+<li> Fattouma Bourguiba Hospital
+<li> Sahloul Hospital
+<li> Farhat Hached Hospital
+<li> Hospital University Tahar Sfar </div>
+
+<div id="publicNorth">
+<li> Habib Thameur Hospital
+<li> Hospital Rabta
+<li> The Military Hospital of Tunis</div>
+
+<div id="publicSouth">
+<li> Hedi Chaker Hospital
+<li> Hospital Regional Habib Bourguiba De Médenine
+<li> Hospital Military De Gafsa</div>
+</ul>
+</div>
+
+</div>
+<div class="splitSmall right">
+<p id="para1"> <h3>How To Keep Safe? </h3> </p>
+<ul> <h4>
+<li> Wash hands for 20 Seconds
+<li> Stay at least one meter away from people
+<li> Wear masks when you go out
+<li> Wear gloves when you go out
+<li> Do not use other people's stuff
+</ul>
+<a href="https://www.who.int/"><img src="who.gif" width="100%" height="421"></a>
+
+</div>
+ </body>
+ </html>
+

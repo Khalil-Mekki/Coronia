@@ -1,0 +1,140 @@
+body,
+html {
+	height: 100%;
+}
+
+h1,
+h3 {
+	color: rgb(7, 28, 85);
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	font-style: italic;
+}
+#para1 {
+	font-family: "Times New Roman", Times, serif;
+}
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #4caf50;
+	color: white;
+}
+
+.splitBig {
+	height: 100%;
+	width: 70%;
+	top: 0;
+	padding-top: 20px;
+}
+.left {
+	height: 100%;
+	width: 70%;
+	left: 0;
+	background-image: linear-gradient(
+		to left top,
+		#8e1a1a,
+		#9e3732,
+		#ad504b,
+		#bb6865,
+		#c7807e,
+		#d08280,
+		#d88582,
+		#e18784,
+		#e6746d,
+		#e86054,
+		#e84b39,
+		#e53319
+	);
+}
+.splitSmall {
+	height: 100%;
+	width: 30%;
+	position: fixed;
+	top: 0;
+
+	line-height: 1.8;
+
+	padding-top: 20px;
+}
+
+.right {
+	height: 100%;
+	width: 30%;
+	right: 0;
+	top: 0;
+
+	background-image: linear-gradient(
+		to left bottom,
+		#4c0404,
+		#6b2221,
+		#8b3d3b,
+		#ab5857,
+		#cc7574,
+		#dd7978,
+		#ee7e7b,
+		#ff827e,
+		#ff6c65,
+		#ff544a,
+		#ff382c,
+		#ff0000
+	);
+}
+div.a {
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+div.b {
+	font-size: 20px;
+}
+.button {
+	background-image: linear-gradient(
+		to right top,
+		#74011a,
+		#8a222c,
+		#9f3b3f,
+		#b55154,
+		#ca6869,
+		#d56b6b,
+		#e06d6c,
+		#eb706d,
+		#ec5e59,
+		#eb4b44,
+		#e9352e,
+		#e51414
+	);
+	border: none;
+	color: #f9f871;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-family: "Lucida Console", Courier, monospace;
+}
+#private {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+}
+#public {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+}
